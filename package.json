@@ -1,0 +1,29 @@
+{
+  "name": "rbac-lucia-demo",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "seed": "node seed.js"
+  },
+  "dependencies": {
+    "@lucia-auth/adapter-sqlite": "^3.0.2",
+    "bcrypt": "^5.1.1",
+    "better-sqlite3": "^9.4.5",
+    "client-only": "^0.0.1",
+    "lucia": "^3.0.0",
+    "next": "^14.2.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "server-only": "^0.0.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.33.0",
+    "cross-env": "^10.0.0",
+    "eslint-plugin-react": "^7.37.5",
+    "globals": "^16.3.0"
+  }
+}
